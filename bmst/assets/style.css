@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(..\assets\image\businessPlan-amico.png);
+
+    background-color: #f2f2f2;
+
+}
+
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+     width: 50%;
+     height: 400px;
+     background-size:#fff ;
+     margin: auto;
+     border: 2px solid #fff;
+}
+
+.container .left{
+    float: left;
+    width: 45%;
+    height: 400px;
+    background: url(..\assets\image\businessPlan-amico.png);
+    background-size:cover;
+    box-sizing:border-box;
+}
+.container .right{
+    float:right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.formbox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+.formbox p {
+    margin: 0%;
+    padding: 0;
+}
